@@ -1,22 +1,84 @@
-.icon-1 {
-    width: 49px;
-    height: 49px;
-    margin: 3px;
+.publicidad {
+    width: 102%;
+    height: 270px;
+    background-color: rgb(180, 180, 180);
+    position: relative;
+    top: -9px;
+    bottom: 0;
+    left: -10px;
+    right: 0;    
 }
 
-.icon-2{
-    width: 300px;
-    height: 49px;
-    float: right;
+.contenedor {
+    width: 1202px;
+    height: 613px;
+    padding: 0px 120px;
+    background-color: lemonchiffon;
 }
 
-ul {
+.padre {
+    width: 1202px;
+    height: 141px;
+    background-color: lavender;
+}
+
+.hijo-1 {
+    width: 1202px;
+    height: 40px;
+    background-color: lightcyan;
+}
+
+.img-1 {
+    width: 36px;
+    height: 35px;
+}
+
+nav ul {
     display: inline;
     position: absolute;
+    top: 269px;
+    left: 512px;
 }
 
-li {
+nav ul li {
     display: inline;
-    margin: 3px;
-    padding: 60px;
+    margin: 10px;
+    font-size: 10px;
+}
+
+.sub {
+    display: inline;
+    position: absolute;
+    top: 287px;
+    right: 111px;
+}
+
+.sub-2 {
+    display: inline;
+    width: 175.27px;
+    height: 32px;
+    padding: 3px 3px;
+    background-color: rgb(50, 104, 145);
+    border-radius: 3px;
+}
+
+.sub-3 {
+    display: inline;
+    width: 62.34px;
+    height: 32px;
+    padding: 3px 3px;
+    background-color: rgb(50, 104, 145);
+    border-radius: 3px;
+}
+
+.sub-1 {
+    margin: 6px;
+    color: white;
+}
+
+
+.hijo-2 {
+    width: 1202px;
+    height: 58px;
+    background-color: aquamarine;
 }
